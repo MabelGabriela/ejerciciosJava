@@ -19,19 +19,17 @@ que compra y la que tiene que pagar por el total de la compra.*/
         cantllanta = in.nextInt();
         if (cantllanta<5){
             xllanta = 100;
-            total = cantllanta * xllanta;
-            System.out.println("el precio por unidad es: " + xllanta + " su total a pagar es " + total);
         }
         else if (cantllanta>=5 && cantllanta<10){
             xllanta = 75;
-            total = cantllanta * xllanta;
-            System.out.println("el precio por unidad es: " + xllanta + " su total a pagar es " + total);
                     }
-        else if (cantllanta>10){
-            xllanta = 75;
-            total = cantllanta * xllanta;
-            System.out.println("el precio por unidad es: " + xllanta + " su total a pagar es " + total);
+        else{
+            xllanta = 50;
         }
+        total = cantllanta * xllanta;
+
+        System.out.println("el precio por unidad es: " + xllanta + " su total a pagar es " + total);
+
             
         
     }
