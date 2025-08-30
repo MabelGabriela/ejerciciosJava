@@ -8,7 +8,7 @@ del número de equipos que compre. Si las computadoras son menos de cinco se les
 a cinco pero menos de diez se le otorga un 20% de descuento; y si son 10 o más se les da un
 40% de descuento. El precio de cada computadora es de U$500.*/
 int numEquipos;
-double descuento = 0.0;
+double descuento = 0;
 double precioFinal;
 Scanner in = new Scanner(System.in);
         System.out.println("¿Cuantas computadoras ha comprado?");
